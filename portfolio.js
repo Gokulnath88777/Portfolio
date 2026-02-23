@@ -1,5 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
+  home.classList.add("bounce-in-top")
   var typed = new Typed("#typed", {
     strings: ["Technology Specialist", "MERN Stack Learner", "Trainer"],
     typeSpeed: 60,
@@ -63,7 +64,4 @@ navProject.addEventListener("click", () => {
     project.classList.remove("bounce-in-top")
   }, 1000)
 
-})
-document.addEventListener("DOMContentLoaded", () => {
-  home.classList.add("bounce-in-top")
 })
