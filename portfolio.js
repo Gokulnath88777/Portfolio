@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
   home.classList.add("bounce-in-top")
   var typed = new Typed("#typed", {
