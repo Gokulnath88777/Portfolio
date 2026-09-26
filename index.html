@@ -179,6 +179,74 @@
     </div>
   </section>
 
+  <section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2 class="section-title">Contact Me</h2>
+
+    <p class="contact-description">
+      Have a project idea, opportunity, or just want to connect?
+      Feel free to reach out to me.
+    </p>
+
+    <form action="https://api.leadlog.in/forms/submit" method="POST" class="contact-form">
+
+      <input type="hidden" name="form_key"
+        value="lf_5796930db33d3586fdf2e52a0c20a67c8e164966">
+
+      <!-- Spam trap: keep this field hidden and empty -->
+      <input type="text" name="botcheck" hidden tabindex="-1" autocomplete="off">
+
+      <div class="form-group">
+        <label for="leadlog-name">Name</label>
+        <input
+          type="text"
+          id="leadlog-name"
+          name="name"
+          autocomplete="name"
+          placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="leadlog-phone">WhatsApp Number</label>
+        <input
+          type="tel"
+          id="leadlog-phone"
+          name="phone"
+          autocomplete="tel"
+          placeholder="Enter your WhatsApp number"
+          required>
+      </div>
+
+      <div class="form-group">
+        <label for="leadlog-email">Email</label>
+        <input
+          type="email"
+          id="leadlog-email"
+          name="email"
+          autocomplete="email"
+          placeholder="Enter your email"
+          required>
+      </div>
+
+      <div class="form-consent">
+        <label>
+          <input type="checkbox" name="consent" required>
+          <span>
+            I agree to receive updates and offers on WhatsApp.
+            I can reply STOP at any time to unsubscribe.
+          </span>
+        </label>
+      </div>
+
+      <button type="submit" class="btn primary contact-submit">
+        Submit
+      </button>
+
+    </form>
+  </div>
+</section>
+
+
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   
   <script src="portfolio.js"></script>
