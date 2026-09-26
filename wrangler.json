@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "compatibility_date": "2026-09-25",
+  "workers_dev": true,
   "assets": {
     "directory": "."
   }
